@@ -1,4 +1,4 @@
-var RESUME_LOCATION="https://raw.githubusercontent.com/" + GITHUB_USERNAME +"/portfolio/master/resume.json";
+var RESUME_LOCATION="https://raw.githubusercontent.com/" + GITHUB_USERNAME +"/portfolio/gh-pages/resume.json";
 
 var titleOnBlur = "Miss You :(";
 var titleOnActive = "Portfolio";
