@@ -1,54 +1,24 @@
 {
   "displayOrder": ["shortBio","projects", "work", "education", "awards", "volunteer", "social"],
   "personal": {
-    "name": "Navdeep Sekhon",
+    "name": "Richard Mlay",
     "title": "Software Developer",
-    "email": "sekhon@navdeep.co",
-    "phone": "123-456-7890",
+    "email": "richardmlay6@gmail.com",
+    "phone": "(512)765-4391",
     "website": "http://www.navdeepsekhon.com",
-    "shortBio": "Hello! I am Navdeep Sekhon. I make stuff. Here's some of it.",
-    "location": "Delaware",
+    "shortBio": "Hello! I am Richard Mlay and I am looking to start my career in Software Engineering.",
     "profiles": [
       {
-        "network": "Twitter",
-        "url": "http://twitter.com/navdeepsekhon9"
+        "network": "Linkedin",
+        "url": "https://www.linkedin.com/in/richard-mlay-953802170/"
       },
       {
         "network": "github",
-        "url": "http://decompile.xyz"
-      },
-      {
-        "network": "linkedin",
-        "url": "https://www.linkedin.com/in/navdeepsekhon"
-      },
-      {
-        "network": "facebook",
-        "url": "facebook.com/navdeepsekhon6"
+        "url": "github.com/MlayTheProgrammer"
       }
     ]
   },
-  "work": [
-    {
-      "employer": "ABC Company",
-      "location": "Newark, DE",
-      "title": "Job with no highlights",
-      "website": "http://google.com",
-      "dates": "July 2014 - Present",
-      "highlights": []
-    },
-    {
-      "employer": "DEF Company",
-      "location": "Newark, DE",
-      "title": "Job with no link to employer site",
-      "website": "",
-      "dates": "1900 - 1901",
-      "highlights": [
-        "Implemented new APIs",
-        "Integrated and tested existing C++ libraries with the google testing framework",
-        "Implemented and improved functionality in the backend as well as the frontend of the system",
-        "Technology: C++, SQL, PHP, ExtJS, Unix"
-      ]
-    },
+
     {
       "employer": "University Of Delaware",
       "location": "Newark, DE",
