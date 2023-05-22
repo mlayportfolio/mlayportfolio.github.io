@@ -369,7 +369,7 @@ function addCollapseListeners() {
 }
 
 function hideFooter(){
-    document.getElementsByTagName("work")[0].hidden = true;
-    document.getElementsByTagName("volunteer")[0].hidden = true;
-    document.getElementsByTagName("awards")[0].hidden = true;
+    document.getElementsByTagName("work").hidden = true;
+    document.getElementsByTagName("volunteer").hidden = true;
+    document.getElementsByTagName("awards").hidden = true;
 }
