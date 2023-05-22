@@ -4,7 +4,6 @@
     "projects",
     "education",
     "profiles"
-
   ],
   "personal": {
     "name": "Richard Mlay",
@@ -13,7 +12,17 @@
     "email": "richardmlay6@gmail.com",
     "phone": "(512)765-4391",
     "website": "",
-    "shortBio": "Hello! I am Richard Mlay and I am looking to start my career in Software Engineering."
+    "shortBio": "Hello! I am Richard Mlay and I am looking to start my career in Software Engineering.",
+    "profiles": [
+      {
+        "network": "Linkedin",
+        "url": "https://www.linkedin.com/in/richard-mlay-953802170/"
+      },
+      {
+        "network": "github",
+        "url": "https://www.github.com/MlayTheProgrammer"
+      }
+    ]
   },
   "education": [
     {
@@ -50,16 +59,6 @@
           "description": "Android app that uses Java, Android Studios and XML to build a mobile app that enforces students to improve in their academics"
         }
       ]
-    }
-  ],
-  "profiles": [
-    {
-      "network": "Linkedin",
-      "url": "https://www.linkedin.com/in/richard-mlay-953802170/"
-    },
-    {
-      "network": "github",
-      "url": "https://www.github.com/MlayTheProgrammer"
     }
   ]
 }

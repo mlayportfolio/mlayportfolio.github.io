@@ -1,4 +1,4 @@
-var defaultOrder = ["shortBio", "projects", "work", "education", "awards", "volunteer", "social"];
+var defaultOrder = ["shortBio", "projects", "education","profiles"];
 var functions = [];
 var hidden, visibilityChange;
 
@@ -36,7 +36,7 @@ functions["projects"] = addProjectSections;
 functions["awards"] = addAwards;
 functions["education"] = addEducation;
 functions["volunteer"] = addVolunteer;
-functions["social"] = addSocialLinks;
+functions["profile"] = addSocialLinks;
 
 var DOMMain = null;
 $("#modal-carousel").carousel({ interval: false });
