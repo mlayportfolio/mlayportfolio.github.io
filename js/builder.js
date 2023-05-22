@@ -3,29 +3,29 @@ var functions = [];
 var hidden, visibilityChange;
 
 if (typeof document.hidden !== "undefined") { // Opera 12.10 and Firefox 18 and later support
-  hidden = "hidden";
-  visibilityChange = "visibilitychange";
+    hidden = "hidden";
+    visibilityChange = "visibilitychange";
 } else if (typeof document.msHidden !== "undefined") {
-  hidden = "msHidden";
-  visibilityChange = "msvisibilitychange";
+    hidden = "msHidden";
+    visibilityChange = "msvisibilitychange";
 } else if (typeof document.webkitHidden !== "undefined") {
-  hidden = "webkitHidden";
-  visibilityChange = "webkitvisibilitychange";
+    hidden = "webkitHidden";
+    visibilityChange = "webkitvisibilitychange";
 } else {
-  window.onblur = function () {
-      document.title = titleOnBlur;
-  };
-  window.onfocus = function () {
-      document.title = titleOnActive;
-  };
+    window.onblur = function () {
+        document.title = titleOnBlur;
+    };
+    window.onfocus = function () {
+        document.title = titleOnActive;
+    };
 }
 
 function handleVisibilityChange() {
-  if (document[hidden]) {
-    document.title = titleOnBlur;
-  } else {
-    document.title = titleOnActive;
-  }
+    if (document[hidden]) {
+        document.title = titleOnBlur;
+    } else {
+        document.title = titleOnActive;
+    }
 }
 
 document.addEventListener(visibilityChange, handleVisibilityChange, false);
@@ -65,7 +65,7 @@ function setData(data) {
     $('.tooltip-image').first().tooltip("show");
     addProjectThumbnailListener();
     addCollapseListeners();
-    if(data.hideDesignedBy)
+    if (data.hideDesignedBy)
         hideFooter();
 }
 
@@ -107,7 +107,7 @@ function addProjects(projects, domProjects) {
     var projectCount = 0;
     var projectHtml = '';
     for (var i in projects) {
-        var projectUniqueId = i + "-" +new Date().getMilliseconds();
+        var projectUniqueId = i + "-" + new Date().getMilliseconds();
         projectCount++;
         if (projectCount == 1) {
             append(domProjects, HTMLProjectRow);
@@ -187,7 +187,7 @@ function addAwards(data) {
         if (awards[i].description != null && awards[i].description != '') {
             var unique = new Date().getMilliseconds()
             var detailId = "awardDetails" + i + "-" + unique;
-            var divId = "detailsDiv" + detailId+"-" + unique;
+            var divId = "detailsDiv" + detailId + "-" + unique;
             var detailsTitleHTML = HTMLAwardDetailsTitle.replace("%id%", detailId);
             detailsTitleHTML = detailsTitleHTML.replace("%targetId%", divId);
             append(domAwards, detailsTitleHTML);
@@ -367,6 +367,7 @@ function addCollapseListeners() {
         $(this).parent().find(".glyphicon").removeClass("glyphicon-triangle-bottom").addClass("glyphicon-triangle-right");
     });
 }
+
 
 function hideFooter(){
     document.getElementsByTagName("work").hidden = true;
