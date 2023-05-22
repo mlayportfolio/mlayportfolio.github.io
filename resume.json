@@ -1,6 +1,6 @@
 {
   "displayOrder": ["shortBio","projects", "work", "education", "awards", "volunteer", "social"],
-  "hideDesignedBy": false,
+  "hideDesignedBy": True,
   "personal": {
     "name": "Richard Mlay",
     "title": "Software Developer",
