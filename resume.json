@@ -3,6 +3,7 @@
     "shortBio",
     "projects",
     "education",
+    "profiles",
     "social"
   ],
   "personal": {
@@ -20,14 +21,14 @@
       },
       {
         "network": "github",
-        "url": "github.com/MlayTheProgrammer"
+        "url": "https://www.github.com/MlayTheProgrammer"
       }
     ]
   },
   "education": [
     {
       "institution": "Stephen F. Austin",
-      "major": "Computer sCIENCE",
+      "major": "Computer Science",
       "degree": "Bachelor",
       "graduationDate": "JUN 2023"
     }
