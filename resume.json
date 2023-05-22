@@ -1,13 +1,21 @@
 {
-  "displayOrder": [ "shortBio", "projects", "work", "education", "awards", "volunteer", "social" ],
+  "displayOrder": [
+    "shortBio",
+    "projects",
+    "work",
+    "education",
+    "awards",
+    "social"
+  ],
   "hideDesignedBy": false,
   "personal": {
     "name": "Navdeep Sekhon",
-    "title": "Software Developer",
-    "email": "sekhon@navdeep.co",
-    "phone": "123-456-7890",
-    "website": "http://www.navdeepsekhon.com",
-    "shortBio": "Hello! I am Navdeep Sekhon. I make stuff. Here's some of it.",
+    "title": "{FrontEnd, BackEnd, Mobile} Developer",
+    "image": "",
+    "email": "hey@navdeep.co",
+    "phone": "732-860-8502",
+    "website": "",
+    "shortBio": "<i>Hello! I am Navdeep Sekhon. I like programming and tea. Usually I take both at the same time. I have a passion for solving problems and learning new things.</i><p class='text-center'><i>I have written code for front-end, back-end, mobile apps etcetera etcetera. I never shy away from a challenge and I am always looking for opportunities to push my boundaries and build new and exciting things. Here are some of the things I built in my free time while learning new technologies.</i></p><p class='text-center'><i>Feel free to say hello on <a href='https://www.linkedin.com/in/navdeepsekhon' target='_blank'>LinkedIn</a> or any other network listed below</i> :)</p>",
     "location": "Delaware",
     "profiles": [
       {
@@ -24,25 +32,25 @@
       },
       {
         "network": "facebook",
-        "url": "facebook.com/navdeepsekhon6"
+        "url": "http://facebook.com/navdeepsekhon6"
       }
     ]
   },
   "work": [
     {
-      "employer": "ABC Company",
+      "employer": "JPMorgan Chase",
       "location": "Newark, DE",
-      "title": "Job with no highlights",
-      "website": "http://google.com",
+      "title": "Application Developer",
+      "website": "https://www.jpmorganchase.com/",
       "dates": "July 2014 - Present",
       "highlights": []
     },
     {
-      "employer": "DEF Company",
+      "employer": "SevOne Inc.",
       "location": "Newark, DE",
-      "title": "Job with no link to employer site",
-      "website": "",
-      "dates": "1900 - 1901",
+      "title": "Software Developer Intern",
+      "website": "https://www.sevone.com/",
+      "dates": "June 2013 - February 2014",
       "highlights": [
         "Implemented new APIs",
         "Integrated and tested existing C++ libraries with the google testing framework",
@@ -53,9 +61,9 @@
     {
       "employer": "University Of Delaware",
       "location": "Newark, DE",
-      "title": "Job with both link to employer site and highlights",
-      "website": "http://google.com",
-      "dates": "1899 – 1900",
+      "title": "Research Intern",
+      "website": "https://www.udel.edu/",
+      "dates": "June 2012 – August 2012",
       "highlights": [
         "Worked on Model and Simulation of DRAM-PCM Dual Architecture with Dr. Chengmo Yang",
         "Developed simulators for various parts of the architecture",
@@ -65,52 +73,12 @@
       ]
     }
   ],
-  "volunteer": [
-    {
-      "organization": "Volunteer Org #1",
-      "location": "Newark, DE",
-      "title": "Volunteer without link to website",
-      "website": "",
-      "dates": "December 2015",
-      "highlights": [
-        "highlight",
-        "highlight"
-      ]
-    },
-    {
-      "organization": "Volunteer Org #2",
-      "location": "Newark, DE",
-      "title": "Volunteer without highlights",
-      "website": "https://www.udel.edu/",
-      "dates": "November 2015",
-      "highlights": [
-
-      ]
-    },
-    {
-      "organization": "Volunteer Org #3",
-      "location": "Newark, DE",
-      "title": "Volunteer with website and highlights",
-      "website": "https://www.udel.edu/",
-      "dates": "November 2015",
-      "highlights": [
-        "highlight",
-        "highlight"
-      ]
-    }
-  ],
   "education": [
-    {
-      "institution": "University Of noGPA",
-      "major": "Computer Engineering",
-      "degree": "Masters",
-      "graduationDate": "Fall 2020"
-    },
     {
       "institution": "University Of Delaware",
       "major": "Computer Engineering",
       "degree": "Bachelor",
-      "graduationDate": "Fall 2010",
+      "graduationDate": "2014",
       "gpa": "3.7/4.0"
     }
   ],
@@ -119,33 +87,19 @@
       "title": "FrontEnd",
       "projects": [
         {
-          "title": "Project with bulleted description",
-          "link": "https://github.com/navdeepsekhon/AndroidWeatherApp/",
+          "title": "Porfolio JS Framework",
           "thumbnail": "https://raw.githubusercontent.com/navdeepsekhon/portfolio-generator/master/screenshot.PNG",
+          "link": "https://github.com/navdeepsekhon/portfolio-generator",
           "description": [
-            "Javascript framework that automatically generates a portfolio website from resume data.",
+            "Javascript framework that automatically generates a responsive portfolio website from resume data.",
+            "Adapts to different screen sizes from phone to desktop.",
             "Ability to create image galleries for projects.",
             "Ability to choose the order of different sections or skip sections entirely.",
             "Ability to have custom named sections for projects.",
             "Supports all major social networks icon. ",
-            "The code for this entire site is generated by the framework. Nothing is hardcoded!"
+            "The code for this entire site is generated by the framework. Nothing is hardcoded!",
+            "Create yours using the link below the thumbnail!"
           ]
-        },
-        {
-          "title": "Project with no link",
-          "thumbnail": "https://raw.githubusercontent.com/navdeepsekhon/portfolio-generator/master/screenshot.PNG",
-          "description": [
-            "To crete a bulleted list in the pop up",
-            "Put description content within []",
-            "Each bullet item separated by comma"
-          ]
-        },
-        {
-          "title": "Project with long paragraph description",
-          "link": "https://github.com/navdeepsekhon/AndroidWeatherApp/",
-          "thumbnail": "https://raw.githubusercontent.com/navdeepsekhon/portfolio-generator/master/screenshot.PNG",
-          "description": "To create a paragraph description in the pop up, do not put content in [], just put it everything within the double quotes."
-
         }
       ]
     },
@@ -153,10 +107,10 @@
       "title": "Android",
       "projects": [
         {
-          "title": "Project with image gallery",
+          "title": "Weather App",
           "thumbnail": "https://raw.githubusercontent.com/navdeepsekhon/AndroidWeatherApp/master/screenshots/tablet_mainscreen.png",
           "link": "https://github.com/navdeepsekhon/AndroidWeatherApp/",
-          "description": "To create an image gallery in pop up, put the image URLs comma separated in gallery: []",
+          "description": "Android weather app using open weather API. Optimized for phone and tablet UI. Refreshes data every 3 hours in SQLite database.",
           "gallery": [
             "https://raw.githubusercontent.com/navdeepsekhon/AndroidWeatherApp/master/screenshots/phone_detailscreen_portrait.png",
             "https://raw.githubusercontent.com/navdeepsekhon/AndroidWeatherApp/master/screenshots/phone_mainscreen.png",
@@ -165,9 +119,19 @@
           ]
         },
         {
-          "title": "No gallery, no description(?!)",
+          "title": "PopMovies App",
           "thumbnail": "https://raw.githubusercontent.com/navdeepsekhon/PopMovies/master/screenshots/tablet_movie_details_landscape.PNG",
-          "link": "https://github.com/navdeepsekhon/PopMovies"
+          "link": "https://github.com/navdeepsekhon/PopMovies",
+          "description": "Android app for discovering movies. Uses themoviedb.org API. Optimized for phone and tablet UI.",
+          "gallery": [
+            "https://raw.githubusercontent.com/navdeepsekhon/PopMovies/master/screenshots/phone_movies_portrait.png",
+            "https://raw.githubusercontent.com/navdeepsekhon/PopMovies/master/screenshots/phone_movie_detail.png",
+            "https://raw.githubusercontent.com/navdeepsekhon/PopMovies/master/screenshots/phone_sort_options.png",
+            "https://raw.githubusercontent.com/navdeepsekhon/PopMovies/master/screenshots/phone_movies_landscape.png",
+            "https://raw.githubusercontent.com/navdeepsekhon/PopMovies/master/screenshots/tablet_initialview_landscape.PNG",
+            "https://raw.githubusercontent.com/navdeepsekhon/PopMovies/master/screenshots/tablet_movie_details_landscape.PNG",
+            "https://raw.githubusercontent.com/navdeepsekhon/PopMovies/master/screenshots/tablet_portrait.PNG"
+          ]
         },
         {
           "title": "Top Ten Songs App",
@@ -195,19 +159,13 @@
         }
       ]
     }
-
   ],
   "awards": [
     {
-      "title": "Award with description",
+      "title": "Outstanding Project Award for Capstone Senior Design",
       "date": "March 2014",
       "awarder": "University of Delaware Electrical and Computer Engineering Department",
       "description": "Awarded to the team with the best senior design project within the ECE department. Project: INERTIA: Dead reckoning tracking system for application in GPS degraded environments."
-    },
-    {
-      "title": "Award without description",
-      "date": "March 2014",
-      "awarder": "University of Delaware Electrical and Computer Engineering Department"
     }
   ]
 }
