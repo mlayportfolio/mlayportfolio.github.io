@@ -1,4 +1,4 @@
-var defaultOrder = ["shortBio", "projects", "education","social"];
+var defaultOrder = ["shortBio", "projects", "work", "education", "awards", "volunteer", "social"];
 var functions = [];
 var hidden, visibilityChange;
 
@@ -369,5 +369,7 @@ function addCollapseListeners() {
 }
 
 function hideFooter(){
-    document.getElementsByTagName("footer")[0].hidden = true;
+    document.getElementsByTagName("work")[0].hidden = true;
+    document.getElementsByTagName("volunteer")[0].hidden = true;
+    document.getElementsByTagName("awards")[0].hidden = true;
 }

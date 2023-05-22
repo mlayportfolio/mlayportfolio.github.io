@@ -1,11 +1,6 @@
 {
-  "displayOrder": [
-    "shortBio",
-    "projects",
-    "education",
-    "social"
-  ],
-  "hideDesignedBy": false,
+  "displayOrder": [ "shortBio", "projects", "work", "education", "awards", "volunteer", "social" ],
+  "hideDesignedBy": true,
   "personal": {
     "name": "Richard Mlay",
     "title": "{FrontEnd, BackEnd, Mobile} Developer",
@@ -33,6 +28,77 @@
       }
     ]
   },
+  "work": [
+    {
+      "employer": "ABC Company",
+      "location": "Newark, DE",
+      "title": "Job with no highlights",
+      "website": "http://google.com",
+      "dates": "July 2014 - Present",
+      "highlights": []
+    },
+    {
+      "employer": "DEF Company",
+      "location": "Newark, DE",
+      "title": "Job with no link to employer site",
+      "website": "",
+      "dates": "1900 - 1901",
+      "highlights": [
+        "Implemented new APIs",
+        "Integrated and tested existing C++ libraries with the google testing framework",
+        "Implemented and improved functionality in the backend as well as the frontend of the system",
+        "Technology: C++, SQL, PHP, ExtJS, Unix"
+      ]
+    },
+    {
+      "employer": "University Of Delaware",
+      "location": "Newark, DE",
+      "title": "Job with both link to employer site and highlights",
+      "website": "http://google.com",
+      "dates": "1899 – 1900",
+      "highlights": [
+        "Worked on Model and Simulation of DRAM-PCM Dual Architecture with Dr. Chengmo Yang",
+        "Developed simulators for various parts of the architecture",
+        "Integrated different algorithms",
+        "Tested the algorithms and analyzed the results",
+        "Presented research findings at research seminar"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Volunteer Org #1",
+      "location": "Newark, DE",
+      "title": "Volunteer without link to website",
+      "website": "",
+      "dates": "December 2015",
+      "highlights": [
+        "highlight",
+        "highlight"
+      ]
+    },
+    {
+      "organization": "Volunteer Org #2",
+      "location": "Newark, DE",
+      "title": "Volunteer without highlights",
+      "website": "https://www.udel.edu/",
+      "dates": "November 2015",
+      "highlights": [
+
+      ]
+    },
+    {
+      "organization": "Volunteer Org #3",
+      "location": "Newark, DE",
+      "title": "Volunteer with website and highlights",
+      "website": "https://www.udel.edu/",
+      "dates": "November 2015",
+      "highlights": [
+        "highlight",
+        "highlight"
+      ]
+    }
+  ],
   "education": [
     {
       "institution": "Stephen F. Austin",
@@ -68,6 +134,19 @@
           "description": "Android app that uses Java, Android Studios and XML to build a mobile app that enforces students to improve in their academics"
         }
       ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award with description",
+      "date": "March 2014",
+      "awarder": "University of Delaware Electrical and Computer Engineering Department",
+      "description": "Awarded to the team with the best senior design project within the ECE department. Project: INERTIA: Dead reckoning tracking system for application in GPS degraded environments."
+    },
+    {
+      "title": "Award without description",
+      "date": "March 2014",
+      "awarder": "University of Delaware Electrical and Computer Engineering Department"
     }
   ]
 }
