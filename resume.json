@@ -3,8 +3,9 @@
     "shortBio",
     "projects",
     "education",
-    "profiles"
+    "social"
   ],
+  "hideDesignedBy": false,
   "personal": {
     "name": "Richard Mlay",
     "title": "{FrontEnd, BackEnd, Mobile} Developer",
@@ -15,7 +16,7 @@
     "shortBio": "Hello! I am Richard Mlay and I am looking to start my career in Software Engineering.",
     "profiles": [
       {
-        "network": "Linkedin",
+        "network": "linkedin",
         "url": "https://www.linkedin.com/in/richard-mlay-953802170/"
       },
       {
