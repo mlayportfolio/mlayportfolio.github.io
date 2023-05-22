@@ -2,9 +2,7 @@
   "displayOrder": [
     "shortBio",
     "projects",
-    "work",
     "education",
-    "awards",
     "social"
   ],
   "personal": {
