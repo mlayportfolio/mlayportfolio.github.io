@@ -1,6 +1,6 @@
 {
   "displayOrder": [ "shortBio", "projects", "work", "education", "awards", "volunteer", "social" ],
-  "hideDesignedBy": true,
+  "hideDesignedBy": false,
   "personal": {
     "name": "Richard Mlay",
     "title": "{FrontEnd, BackEnd, Mobile} Developer",

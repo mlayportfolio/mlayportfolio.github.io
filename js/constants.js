@@ -12,8 +12,8 @@ var HTMLShortBio = '<div class="row"><div class="col-md-12"><p id ="short-bio" c
 
 var HTMLProjectsStart = '<div class="row"><div class="col-md-12"><h2 class="text-muted">%sectionTitle%</h2></div></div><div id="projects%id%"></div><hr/>';
 var HTMLProjectRow = '<div class="row text-center project-row"></div>';
-var HTMLProjectWithGallery = '<div class="col-md-4"><img id="project-%id%" project-title="%title%" project-desc="%projectDesc%" class="img-responsive image-center gallery-thumbnail-image thumbnail-image tooltip-image src="%image%" ><h3>%title%</h3>';
-var HTMLProjectWithModal = '<div class="col-md-4"><img id="project-%id%" project-title="%title%" project-desc="%projectDesc%" class="img-responsive image-center modal-thumbnail-image thumbnail-image tooltip-image clickable"  src="%image%" ><h3>%title%</h3>';
+var HTMLProjectWithGallery = '<div class="col-md-4"><img id="project-%id%" project-title="%title%" project-desc="%projectDesc%" class="img-responsive image-center gallery-thumbnail-image thumbnail-image tooltip-image clickable" title="Click image for more information" src="%image%" ><h3>%title%</h3>';
+var HTMLProjectWithModal = '<div class="col-md-4"><img id="project-%id%" project-title="%title%" project-desc="%projectDesc%" class="img-responsive image-center modal-thumbnail-image thumbnail-image tooltip-image clickable" title="Click image for more information" src="%image%" ><h3>%title%</h3>';
 var HTMLProjectSimple = '<div class="col-md-4"><img id="project-%id%" project-title="%title%" project-desc="%projectDesc%" class="img-responsive image-center thumbnail-image" src="%image%" ><h3>%title%</h3>';
 var HTMLProjectLink = '<p><a href="%link%" target="_blank">Link to project</a></p>';
 var HTMLProjectGalleryItem = '<div class="item" id="project-%id%"><img class="img-responsive img-gallery" src="%src%"></div>';
