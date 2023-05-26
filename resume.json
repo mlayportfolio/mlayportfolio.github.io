@@ -11,20 +11,12 @@
     "shortBio": "Hello! I am Richard Mlay and I am looking to start my career in Software Engineering.",
     "profiles": [
       {
-        "network": "Twitter",
-        "url": "http://twitter.com/navdeepsekhon9"
-      },
-      {
         "network": "github",
         "url": "https://www.github.com/MlayTheProgrammer"
       },
       {
         "network": "linkedin",
         "url": "https://www.linkedin.com/in/richard-mlay-953802170/"
-      },
-      {
-        "network": "facebook",
-        "url": "http://facebook.com/navdeepsekhon6"
       }
     ]
   },
